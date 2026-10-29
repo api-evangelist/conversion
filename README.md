@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Conversion is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by true-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://conversion.ai
+Conversion is an AI‑native B2B marketing automation platform that replaces Marketo, Pardot, or HubSpot with AI agents and a complete platform for data, campaigns, and reporting. It offers features such as campaigns, automations, segmentation, email studio, landing pages, forms, lead scoring, Salesforce sync, and more, all built on a modern AI‑driven architecture.
+
+**Areas:** Marketing · Automation · AI · B2B · SaaS · Platform
+
+## Conversion on APIs.io
+
+Everything profiled for Conversion is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/conversion/](https://apis.io/providers/conversion/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Conversion Audiences API](https://apis.io/apis/conversion/conversion-audiences-api/) — The Audiences API from Conversion — 1 operation(s) for audiences.
+- [Conversion Campaigns API](https://apis.io/apis/conversion/conversion-campaigns-api/) — The Campaigns API from Conversion — 4 operation(s) for campaigns.
+- [Conversion Contacts API](https://apis.io/apis/conversion/conversion-contacts-api/) — The Contacts API from Conversion — 2 operation(s) for contacts.
+- [Conversion Custom Objects API](https://apis.io/apis/conversion/conversion-custom-objects-api/) — The Custom Objects API from Conversion — 1 operation(s) for custom objects.
+- [Conversion Events API](https://apis.io/apis/conversion/conversion-events-api/) — The Events API from Conversion — 2 operation(s) for events.
+- [Conversion Exports API](https://apis.io/apis/conversion/conversion-exports-api/) — The Exports API from Conversion — 10 operation(s) for exports.
+- [Conversion Fields API](https://apis.io/apis/conversion/conversion-fields-api/) — The Fields API from Conversion — 2 operation(s) for fields.
+- [Conversion Forms API](https://apis.io/apis/conversion/conversion-forms-api/) — The Forms API from Conversion — 2 operation(s) for forms.
+- [Conversion Full Delete API](https://apis.io/apis/conversion/conversion-full-delete-api/) — The Full Delete API from Conversion — 1 operation(s) for full delete.
+- [Conversion Workflows API](https://apis.io/apis/conversion/conversion-workflows-api/) — The Workflows API from Conversion — 1 operation(s) for workflows.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Conversion Agentic Access](https://apis.io/agentic-access/conversion/conversion-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Contact](https://apis.io/schemas/conversion/conversion-contact/)
+- [ContactFields](https://apis.io/schemas/conversion/conversion-contact-fields/)
+- [FieldSchema](https://apis.io/schemas/conversion/conversion-field-schema/)
+- [RelationshipFieldReference](https://apis.io/schemas/conversion/conversion-relationship-field-reference/)
+- [RelationshipFieldSide](https://apis.io/schemas/conversion/conversion-relationship-field-side/)
+- [SubscriptionStatus](https://apis.io/schemas/conversion/conversion-subscription-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Conversion Context](https://apis.io/jsonld/conversion/conversion-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Conversion Openapi Overlay](https://apis.io/overlays/conversion/conversion-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Conversion API Rules](https://apis.io/rules/conversion/conversion-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Conversion Authentication](https://apis.io/security/conversion/conversion-authentication/)
+- [Conversion Domain Security](https://apis.io/security/conversion/conversion-domain-security/)
+- [Conversion Trust Center](https://apis.io/security/conversion/conversion-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://conversion.ai)
+- [Documentation](https://docs.conversion.ai)
+- [Getting started](https://docs.conversion.ai/product-docs/introduction)
+- [API reference](https://docs.conversion.ai/api-reference/)
+- [Sign up](https://conversion.ai/demo/)
+- [Support](https://support.conversion.ai/en/)
+- [Changelog](https://conversion.ai/changelog/)
+- [Blog](https://conversion.ai/blog/)
+- [Security](https://conversion.ai/security/)
+- [Compliance](https://conversion.ai/security/)
+- [Terms of service](https://conversion.ai/terms-of-service/)
+- [Privacy policy](https://conversion.ai/privacy/)
+- [Status](https://status.conversion.ai/)
+
+## API Evangelist rating
+
+**Kin Score 61.9** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 59.5 |
+| Contract governance | 70.9 |
+| Operational transparency | 50.0 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 50.0 |
+
+**Agent readiness 68.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/conversion/](https://apis.io/providers/conversion/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Conversion: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/conversion/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
